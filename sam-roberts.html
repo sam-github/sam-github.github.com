@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/strict.dtd">
+<html><head><META http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Sam Roberts - Resume</title><style>
+
+/*
+ * compact.css -- Stylesheet suitable for printing an xmlresume to dead
+ * trees without using too many of them (Arial font, white background)
+ *
+ * Contributed 2002 by Mark Miller (joup at bigfoot dot com)
+ * http://xmlresume.sourceforge.net
+ */
+
+// This dummy style must be here because the xml tags above cause some 
+// browsers (Konqueror, Mozilla) to ignore the first style 
+.dummy { background-color: white }
+
+body, table { 
+    margin-top: 1cm; 
+    margin-bottom: 1cm;
+    font-size: 8pt;
+    background-color: white;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+.resume { 
+    padding-left: 1.5cm;
+    padding-right: 1.5cm;
+}
+h2 {
+    margin-left: -.8cm;
+    font-family: sans-serif;
+    color: black;
+    border-bottom: solid 1pt black;
+    font-size: 115%;
+}
+p {
+    margin-bottom: 0.05cm;
+    margin-top: 0.15cm;
+}
+em { font-weight: bold; }
+ul { margin-top: 0.1cm; }
+
+.projects p { font-style: italic }
+ul.degrees { padding-left: 0.2cm; }
+.subjectsHeading { font-style: italic }
+.awardTitle { font-weight: bold }
+.bookTitle { font-style: italic }
+.citation { font-style: italic }
+.copyright { font-size: 75% }
+li.degree { margin-bottom: 0.2cm; }
+.degreeTitle { font-weight: bold }
+.employer { font-style: italic }
+.headerBlock { text-align: left }
+.jobTitle { font-weight: bold }
+.lastModified { font-size: 75% }
+.nameHeading { font-family: sans-serif; font-size: 125%; }
+div.referee { margin-bottom: 0.5cm; }
+table.referees { width: 60%; margin-top: 0cm; margin-bottom: 0cm;}
+.refereeName { font-weight: bold }
+.skillsetTitle { font-weight: bold }
+.urlA { font-family:sans-serif; color:red; }
+
+</style></head><body><div class="resume"><div class="header"><h1 class="nameHeading">Sam Roberts</h1><p class="address">Vancouver, BC, Canada</p><p>Email: <a href="mailto:vieuxtech@gmail.com">vieuxtech@gmail.com</a><br>URL: <a href="http://sam-github.github.com">http://sam-github.github.com</a><br></p></div><h2 class="heading"><span class="headingText">Career</span></h2><p class="para">
+      Software developer with more than 18 years of experience in a
+      variety of industries, languages, and platforms.
+      Consistently develops innovative tools and technologies that are
+      adopted as core elements of my companies' software
+      development and business practices.
+      Particular interest in operating
+      system services, network protocols, and programming languages.
+    </p><h2 class="heading"><span class="headingText">Skills</span></h2><p><span class="skillSetTitle">Multi-language and platform development: </span><span class="skills">C, Lua, Ruby, Python, C++, Objective-C, Clojure, Linux, QNX, iOS, OS X, VxWorks, Win32, BeOS, WinCE, Symbian, RIM.</span></p><p><span class="skillSetTitle">Systems programming: </span><span class="skills">event-driven and non-blocking I/O, embedded and real-time systems, device drivers and kernel modules, pseudo filesystems and resource oriented systems, sockets and low-level network programming.</span></p><p><span class="skillSetTitle">Network protocols and data formats: </span><span class="skills">TCP/UDP/IP, multicast/broadcast, HTTP, POP3, SMTP, IMAP, MIME, mDNS/DNS-SD ("Rendezvous" or "Bonjour"), ASN.1/BER/DER, vCard, iCalendar, BEEP, Zigbee, XML.</span></p><p><span class="skillSetTitle">Cryptography: </span><span class="skills">CMS, S/MIME, SSL/TLS/WTLS, X.509/PKIX, PKCS #1, #5, #7, #8, #9, #11, and #12, smart cards and hardware accelerators, cryptographic APIs (OpenSSL, Cryptoki, BSAFE, Cswift, CAC), RSA, Diffie-Hellman, and Elliptic Curve crypto-systems.</span></p><p><span class="skillSetTitle">Development tools: </span><span class="skills">Debian packaging, GNU tool chain (gcc, make, bash, texinfo), qt, cocoa, regular expressions, perl, shell, sqlite/SQL, git/subversion/perforce/CVS/RCS, Wireshark.</span></p><p><span class="skillSetTitle">Languages: </span><span class="skills">English, French (conversation), Japanese (pretty rusty).</span></p><h2 class="heading"><span class="headingText">Education</span></h2><ul class="degrees"><li class="degree"><span class="degreeTitle">B.A.Sc. in Engineering-Physics, Computer Science Option</span>, 1996<br><span class="institution">University of British Columbia</span></li></ul><h2 class="heading"><span class="headingText">History</span></h2><p class="job"><span class="jobTitle">Senior Architect</span><br><span class="employer">Wurldtech (<a class="linkA" href="http://wurldtech.com">wurldtech.com</a>)</span><br>April 2012-present</p><div class="jobDescription">
+	Architect for an extensible and embeddable intrusion prevention system,
+	still in development.
+      </div><div class="achievements"><p>Achievements:</p><ul><li class="achievement">TCP reassembly and rule-controlled data windowing allows
+	  resistance to common evasions of IPS.</li><li class="achievement">Protocol dissectors and rules portably specified in Lua,
+	  leading to run-time extensibility of protocol support.
+	</li><li class="achievement">Same rules can be used with both Linux
+	  nfqueue and VxWork's firewall for packet
+	  processing.</li></ul></div><p class="job"><span class="jobTitle">Development Lead</span><br><span class="employer">Wurldtech (<a class="linkA" href="http://wurldtech.com">wurldtech.com</a>)</span><br>May 2007-Nov 2012</p><div class="jobDescription">
+	Lead a team of eight developers on a Linux-based appliance for
+	automating network security testing of industrial equipment.
+      </div><div class="achievements"><p>Achievements:</p><ul><li class="achievement">
+	  Shipped product within first year of development using an agile
+	  development process based on Scrum, using development practices
+	  such as continuous builds, unit/system/integration tests, automated
+	  deployment, etc.
+	</li><li class="achievement">
+	  A network protocol implementation and test framework in Lua,
+	  including bindings to Linux networking APIs.
+	</li><li class="achievement">
+	  Structured test platform as thin java/swing client, communicating
+	  over XML/BEEP to a python/twisted server on Linux platform.
+	</li><li class="achievement">
+	  Learned, implemented, and developed tests for many IPv4 and industrial
+	  protocols (modbus, OSI over TCP, ENIP/CIP, ZigBee, etc.)
+	</li><li class="achievement">
+	  Interfaces to digital and analog I/O, using comedi and USB SDKs.
+	</li><li class="achievement">
+	  Wireshark dissectors for ZigBee and WirelessHART in Lua.
+	</li><li class="achievement">
+	  Managed outsourcing of test appliance hardware platform.
+	</li></ul></div><p class="job"><span class="jobTitle">Senior Software Architect</span><br><span class="employer">Bycast (<a class="linkA" href="http://bycast.com">bycast.com</a>)</span><br>Nov 2005-June 2007</p><div class="jobDescription">
+        Maintain and enhance a distributed fixed-content storage system
+        composed of a redundant, fault-tolerant, and load-balancing grid of
+        Linux servers.
+      </div><div class="achievements"><p>Achievements:</p><ul><li class="achievement">
+          Implemented Grid communication protocols in C and Ruby, allowing
+          programmatic interaction from Ruby to a running Grid.
+        </li><li class="achievement">
+          Exposed Grid capabilities through an RPC-like API, based on HTTP/1.1
+          and XML, allowing custom 3rd party application integration.
+        </li><li class="achievement">
+	Integrated Lua into Grid nodes for scripting, component development,
+	interactive debugging, and testing.
+        </li></ul></div><p class="job"><span class="jobTitle">Senior Software Developer</span><br><span class="employer">Certicom Corp. (<a class="linkA" href="http://certicom.com">certicom.com</a>)</span><br>Oct 2000-Oct 2005</p><div class="jobDescription">
+        Developed C language cryptographic toolkits optimized for high
+        performance and low memory usage.
+      </div><div class="achievements"><p>Achievements:</p><ul><li class="achievement">
+          Proposed architecture for integrating 3rd party cryptographic support
+          into Certicom's Crypto and protocol toolkits. Proposal was adopted as
+          the Crypto-C API and integrated into all products (IPSEC, TLS, PKI).
+        </li><li class="achievement">
+          Implemented Crypto-C support for Security Builder, CryptoSwift,
+          BSafe, and PKCS#11.
+        </li><li class="achievement">
+          Designed Certicom's PKI-C toolkit.
+        </li><li class="achievement">
+          Implemented cryptographic key store architecture, and plugins using
+          LDAP, file-based PKCS#12, CAC smartcards, Cryptoki (PKCS#11)
+          smartcards, and WinCE servers. Integrated key stores into PKI-C.
+        </li><li class="achievement">
+          Developed tools to process product headers into API documentation
+          using Ruby, doxygen, XML, MIF, and Framemaker.  Tools adopted by the
+          documentation group for use with all C products.
+        </li><li class="achievement">
+          Developed Ruby extension support for the Cryptoki (PKCS#11) SmartCard
+          API.
+        </li><li class="achievement">
+          Implemented automated tests designed to expose protocol and memory
+          usage errors, and fixed them.
+        </li></ul></div><p class="job"><span class="jobTitle">Software Developer</span><br><span class="employer">Cogent Real-Time Systems (<a class="linkA" href="http://cogent.ca">cogent.ca</a>)</span><br>1998-Oct 2000</p><div class="jobDescription">
+          Custom QNX development for clients in C and gamma, Cogent's
+          LISP-based rapid application development language.
+          </div><div class="achievements"><p>Achievements:</p><ul><li class="achievement">
+          Implemented QNX's Send/Receive/Reply Message Passing API for Linux as
+          a loadable kernel module. Cogent's QNX-based tool chain runs
+          unmodified under Linux using it, and real-time Linux development is
+          now part of Cogent's business strategy (<a class="linkA" href="http://cogent.ca/Software/SRR.html">cogent.ca/Software/SRR.html</a>).
+	</li><li class="achievement">
+	  Maintained the file, DNS, and news servers and the Linux firewall.
+        </li></ul></div><p class="job"><span class="jobTitle">Development Lead</span><br><span class="employer">International Submarine Engineering (<a class="linkA" href="http://ise.bc.ca">ise.bc.ca</a>)</span><br>1995-Oct 1998</p><div class="jobDescription">
+        Managed the maintenance and development of ACE, a component-based,
+        runtime configurable, asynchronous event-based kernel implemented in
+        C++.
+        </div><div class="achievements"><p>Achievements:</p><ul><li class="achievement">
+          Ported ACE kernel to QNX and advocated its use for new projects.
+          Implemented drivers, communication libraries, and ACE components for
+          a remotely operated underwater vehicle.
+        </li><li class="achievement">
+          Designed and implemented a system for controlling two 7-arm
+          manipulators for the Canadian Space Agency. System is an extensible
+          team of processes sharing data between QNX nodes over  a shared-memory network to provide
+          torque and position control at 1 kHz. The core processes and ScramNet
+          network driver were implemented in C++.
+        </li></ul></div><h2 class="heading"><span class="headingText">Interests</span></h2><p class="para"><cite class="citation">libnet</cite>
+      Adopted this widely used packet crafting and injection library, fixed the
+      known bugs, and re-released. It has been accepted downstream by Debian
+      and Fedora, and I continue to maintain it. 
+      (<a class="linkA" href="https://github.com/sam-github/libnet">github.com/sam-github/libnet</a>)
+    </p><p class="para"><cite class="citation">vPim</cite>.
+      Ruby support for vCard and iCalendar formats, and various tools that
+      use them, such as publishing OS X/iCal todo items as an RSS feed.
+      (<a class="linkA" href="https://github.com/sam-github/vpim">github.com/sam-github/vpim</a>)
+    </p><p class="para"><cite class="citation">open source</cite>
+      Protocol toolkits (BEEP support for lua, ZeroConf for ruby), lua bindings
+      to C/C++ libraries, contributor to luasocket and GNU mailutils, ancient
+      QNX virtual filesystems.
+      (<a class="linkA" href="http://sam-github.github.com">sam-github.github.com</a>)
+    </p><p class="para"><cite class="citation">Judo</cite>.
+      Black belt (1st degree), and instructor of both children and adults.
+    </p><p class="para"><cite class="citation">Rock Climbing</cite>.
+      Climbed across North America, from Canada to Mexico.
+    </p></div></body></html>
