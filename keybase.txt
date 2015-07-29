@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/octetcloud
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://octetcloud.com
+  * I am octetcloud (https://keybase.io/octetcloud) on keybase.
+  * I have a public key with fingerprint 0034 A06D 9D9B 0064 CE8A  DF6B F174 7F4A D230 6D93
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "0034a06d9d9b0064ce8adf6bf1747f4ad2306d93",
+            "host": "keybase.io",
+            "key_id": "f1747f4ad2306d93",
+            "kid": "01012a9babe8a29c42f272053673ffa8b6fa83836a9c9f9d46e9612409792b99cff80a",
+            "uid": "795f6d2ad8cd5d73c5994a52c1372419",
+            "username": "octetcloud"
+        },
+        "service": {
+            "hostname": "octetcloud.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1438199109,
+    "expire_in": 157680000,
+    "prev": "8dd427021f2b1dbef0e83cc075c1d09bda01b3087dc0b955638b56c6e97c65ed",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.34
+Comment: https://keybase.io/crypto
+
+yMMzAnicbZJ7UFRVHMcXMEKE2Bx56NQUF51BXPHc9z3LliY4TmkgGcIAut57z73s
+DXbvsnt5bIJLQA74gsINBsqkRhgeOQlJihWPnHEiLCUz04apKSEq/hAfM2E43cvU
+X3X+OGfO7/f9fs75/eZ3ITLEFB50W/O/MAGcTUFfjqSVmLLOrd+yDxNU5MOs+7BC
+afGQFVeB5HF7FJeGWTEASIoHDIIICgAwlChxPJIZQcZZipUpHhGkkSUxC+ZQvYZD
+xwi8V0pWVD2mX+wK0qP/oy9cTAAc4AQPBV7QyQQUKUImWALQJMOSssxzAqNvJEcy
+PBShDBHFSJDBCQpAFhIChKIsc4DXcSWLOBbSMoMIHnEiohFLijSEFE8TIk6yBIVD
+Q+iVPC7eKelqVdQkTSxSSxBWacH0eKkiSkYTjFr+o0kWVafud3tUTRXVIj3n0DS3
+1bBqPrehLZME+z8Uu6C4kN5K3VAqebyK6sKsuK4UNcXA4hTJ4RDiAFowqdyteCS7
+YiholuGAvoxnpFIdySFEESwgcJkQcCRIMpA4UhQBS4s4AlBAPMAFEnAsEoEAaZoh
+OYFmRL1LrMjQEsKMuopdKmal9G/yBTrSqxS4eK3EI2GVoyP5S0xB4abQR4KNYTCF
+LzX/OyJV41EPnz6dfyJplS1wMmeszbck4sjMyoSswWD2aGrP+VA8/1PHIdujo0kV
+jy2/lh5enb0rWjYlEvM3IuXSpcfOvD842bd3uG8iFfukI6ZleCBqtO/W6YbB4Y7W
+l/ZkfRa4Pu2re95E52DNy26sOUU3/pLRRnRYBsU7rab6Q49/37ii6qxa9/naX8f6
+0w6MZHfXjQztn9gVsVL+OuxjU3HM/aG8zNfBK5tz9tOxQmXD1YTOuIb41x4WzHmj
+y3Z670VE3VzoeKKz4MFU80d37eXHIpPTUwYm6Nzm75ygusXfeUdKCHgK15gauZaX
+KduO0NrbV2JccXmO/g+32oY2W8wnLoUpQUl/fVOzI/sdd9tYWeZ0+c1c87nlgYzV
+bz95+czki8/13Potqndqvu2Zxvd419QHjRv8syl3Q7ZeSVn2bvDFN9uvLYTttlcq
+uTkqldGbLl/dNL7Bd7z1gik1p3MVvu3sW7PrfjiV+IbtYMCf1x8b+3O7/6nun/6o
+8z27duRk9YAyPT7b1BUXPbz7cPxMQmnbHpv7PgO2rIvtuXyeak1rF+ZVh5Y09wX4
+yt9lEbjWDhTuyqA2hcSb6cPje4+m1tfQB83bZ34nVgfMPzYduJTybc2KtBgzqHHW
+Dlmj+8crqjZ2/3kcXQyZW0isr+i57igpXvDCzHuTzrmi3vWvFmXubJp1jz6o3Yh1
+/Q0hD52h
+=mWFk
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/octetcloud
+
+==================================================================
