@@ -1,0 +1,281 @@
+Sam Roberts
+103 - 228 18th Ave East
+Vancouver, BC V5V 1E6
+Canada
+
+Phone: 236-330-4820
+Email: vieuxtech@gmail.com
+URL: http://octetcloud.com
+
+
+Career:
+
+    Software developer with more than 23 years of experience in a
+    variety of industries, languages, and platforms. Consistently
+    develops innovative tools and technologies that are adopted as core
+    elements of my companies' software development and business
+    practices. Particular interest in operating system services, network
+    protocols, and polyglot programming.
+    
+
+Skills:
+
+    Multi-language and platform development: C, Lua, Ruby, Python,
+    Node.js/Javascript, C++, Go, Objective-C, Linux, QNX, iOS, OS X,
+    VxWorks, Win32, BeOS, WinCE, Symbian, RIM.
+  
+    Systems programming: event-driven and non-blocking I/O, embedded and
+    real-time systems, device drivers and kernel modules, pseudo
+    filesystems and resource oriented systems, sockets and low-level
+    network programming.
+  
+    Network protocols and data formats: TCP/UDP/IP, multicast/broadcast,
+    0MQ, HTTP, POP3, SMTP, MIME, mDNS/DNS-SD ("Rendezvous" or
+    "Bonjour"), ASN.1/BER/DER, vCard, iCalendar, BEEP, Zigbee, XML.
+  
+    Cryptography: CMS, S/MIME, SSL/TLS/WTLS, X.509/PKIX, PKCS #1, #5,
+    #7, #8, #9, #11, and #12, smart cards and hardware accelerators,
+    cryptographic APIs (OpenSSL, Cryptoki, BSAFE, Cswift, CAC), RSA,
+    Diffie-Hellman, and Elliptic Curve crypto-systems.
+  
+    Development tools: Debian packaging, GNU tool chain (gcc, make,
+    bash, texinfo), qt, cocoa, regular expressions, npm, perl, shell,
+    sqlite/SQL, git/subversion/perforce/CVS/RCS, Wireshark, Wireshark
+    Lua dissectors.
+  
+    Citizenships: Canada.
+  
+
+Education:
+
+    B.A.Sc. in Engineering-Physics, Computer Science Option, 1996
+    University of British Columbia
+    
+
+History:
+
+    Senior Software Developer
+    IBM Runtimes (strongloop.com)
+    October 2018-present
+    
+    
+            Node.js core contributor (github.com/nodejs/node), primarily to TLS, crypto, security, LTS release lines and IBM platform support.
+          
+    Achievements:
+    * TLS1.3 support for Node.js
+    * Node.js security releases, such as Aug, 2019
+    * Member of Node.js Technical Steering Committee (TSC)
+    
+    
+    Personal Leave
+    
+    October 2017-September 2018
+    
+    
+            Took a year leave to spend time with my family.
+          
+    Achievements:
+    * Mountain biking, Brazilian Jiu-jitsu, learning to unicycle with my
+      kids.
+    
+    
+    Senior Software Developer
+    IBM Runtimes (github.com/RuntimeTools)
+    October 2016-September 2017
+    
+    
+            Node.js core contributor (github.com/nodejs/node), primarily to TLS, crypto.
+          
+    Achievements:
+    * Integrating github.com/strongloop/strong-pm with IBM's
+      github.com/RuntimeTools/appmetrics
+    * Helped setup Node.js' Security Working Group
+      (github.com/nodejs/security-wg)
+    * Implemented NODE_OPTIONS env-based configuration, and TLS CA and
+      key configuration enhancements
+    * Back Pressure, or, Don't Accept Work Before You're Ready, Node.js
+      Interactive, Oct 2017, www.youtube.com/watch?v=Bz0EkaH4S7Y (also,
+      Nodeconf.eu, Nov 2017)
+    * Node's Event Loop from the Inside Out, Node.js Interactive, Austin
+      TX, Dec 2016, www.youtube.com/watch?v=P9csgxBgaZ
+    
+    
+    Senior Software Developer
+    IBM APIConnect
+    November 2015-September 2016
+    
+    
+            Post-acquisition integration of Strongloop runtime technology into IBM's APIConnect management stack.
+          
+    Achievements:
+    * Led team of 3 IBM developers to add Node.js runtime management to
+      a WAS Liberty cluster, using
+      github.com/strongloop/strong-supervisor.
+    * Node.js API Pitfalls: Can You Spot Them?, Node.js Interactive,
+      Portland WA, Dec 2015, www.youtube.com/watch?v=jJaIwea8r2A
+    
+    
+    StrongOps Team Lead
+    Strongloop (strongloop.com)
+    April 2013-October 2015
+    
+    
+            Strongloops runtime and deployment management for Node.js applications. Led StrongOps team, participated in development of
+            mostly open source management and monitoring solutions for Node.js (strong-pm.io).
+          
+    Achievements:
+    * Application management with github.com/strongloop/strong-pm
+    * Cluster management with github.com/strongloop/strong-supervisor
+    * Runtime monitoring with github.com/strongloop/strong-agent
+    * Message queue abstraction with github.com/strongloop/strong-mq
+    * Maintain and publish Strongloop modules and CLI
+      (github.com/strongloop/strongloop
+    
+    
+    Senior Architect
+    Wurldtech (wurldtech.com)
+    April 2012-March 2013
+    
+    
+    	Architect for an extensible and embeddable intrusion prevention system,
+    	still in development.
+          
+    Achievements:
+    * TCP reassembly and rule-controlled data windowing allows
+      resistance to common evasions of IPS.
+    * Protocol dissectors and rules portably specified in Lua, leading
+      to run-time extensibility of protocol support.
+    * Same rules can be used with both Linux nfqueue and VxWork's
+      firewall for packet processing.
+    
+    
+    Development Lead
+    Wurldtech (wurldtech.com)
+    May 2007-Nov 2012
+    
+    
+    	Lead a team of eight developers on a Linux-based appliance for
+    	automating network security testing of industrial equipment.
+          
+    Achievements:
+    * Shipped product within first year of development using an agile
+      development process based on Scrum, using development practices
+      such as continuous builds, unit/system/integration tests,
+      automated deployment, etc.
+    * A network protocol implementation and test framework in Lua,
+      including bindings to Linux networking APIs.
+    * Structured test platform as thin java/swing client, communicating
+      over XML/BEEP to an event-driven (python/twisted) server on a
+      Linux appliance.
+    * Learned, implemented, and developed tests for many IPv4 and
+      industrial protocols (modbus, ENIP/CIP, ZigBee, ...)
+    * Interfaces to digital and analog I/O, using comedi and USB SDKs.
+    * Outsourcing of test appliance hardware development.
+    
+    
+    Senior Software Architect
+    Bycast (bycast.com)
+    Nov 2005-June 2007
+    
+    
+    	Worked on storage grid, a distributed network of redundant, fault-tolerant Linux servers.
+          
+    Achievements:
+    * Implemented Grid communication protocols in C and Ruby, allowing
+      programmatic interaction from Ruby to a running Grid.
+    * Exposed Grid capabilities through an RPC-like API, based on
+      HTTP/1.1 and XML, allowing custom 3rd party application
+      integration. Rebuilt the HTTP server for standards conformance and
+      robustness.
+    * Integrated Lua into Grid nodes for scripting, component
+      development, interactive debugging, and testing.
+    
+    
+    Senior Software Developer
+    Certicom Corp. (certicom.com)
+    Oct 2000-Oct 2005
+    
+    
+            Developed C language cryptographic toolkits optimized for high
+            performance and low memory usage.
+          
+    Achievements:
+    * Proposed architecture for integrating 3rd party cryptographic
+      support into Certicom's Crypto and protocol toolkits. Proposal was
+      adopted as the Crypto-C API and integrated into all products
+      (IPSEC, TLS, PKI).
+    * Implemented Crypto-C support for Security Builder, CryptoSwift,
+      BSafe, and PKCS#11.
+    * Designed Certicom's PKI-C toolkit.
+    * Implemented cryptographic key store architecture, and plugins
+      using LDAP, file-based PKCS#12, CAC smartcards, Cryptoki (PKCS#11)
+      smartcards, and WinCE servers. Integrated key stores into PKI-C.
+    * Developed tools to process product headers into API documentation
+      using Ruby, doxygen, XML, MIF, and Framemaker. Tools adopted by
+      the documentation group for use with all C products.
+    * Developed Ruby extension support for the Cryptoki (PKCS#11)
+      SmartCard API.
+    * Implemented automated tests designed to expose protocol and memory
+      usage errors, and fixed them.
+    
+    
+    Software Developer
+    Cogent Real-Time Systems (cogent.ca)
+    1998-Oct 2000
+    
+    
+              Custom QNX development for clients in C and gamma, Cogent's
+              LISP-based rapid application development language.
+              
+    Achievements:
+    * Implemented QNX's Message Passing API for Linux as a Linux kernel
+      module. Cogent's QNX-based tool chain was retargeted at Linux
+      using it, essentially unmodified. (cogent.ca/Software/SRR.html)
+    
+    
+    Development Lead
+    International Submarine Engineering (ise.bc.ca)
+    1995-Oct 1998
+    
+    
+            Managed the maintenance and development of ACE, a component-based,
+            runtime configurable, asynchronous event-based kernel implemented in
+            C++.
+            
+    Achievements:
+    * Ported ACE kernel to QNX and advocated its use for new projects.
+      Implemented drivers, communication libraries, and ACE components
+      for a remotely operated underwater vehicle.
+    * Designed and implemented a system for controlling two 7-arm
+      manipulators for the Canadian Space Agency. System is an
+      extensible team of processes sharing data between QNX nodes over a
+      shared-memory network to provide torque and position control at 1
+      kHz. The core processes and ScramNet network driver were
+      implemented in C++.
+    
+
+Interests:
+
+    ClimbIt A rock climbing route database and activity tracker for iOs,
+    available on the iTunes app store. (climbitapp.com)
+    
+    libnet Adopted this widely used packet crafting and injection
+    library, fixed the known bugs, and re-released. It has been accepted
+    downstream by Debian and Fedora. I am trying to get new maintainers.
+    (github.com/libnet/libnet)
+    
+    vPim. Ruby support for vCard and iCalendar formats, and various
+    tools that use them, such as publishing OS X/iCal todo items as an
+    RSS feed. (github.com/sam-github/vpim)
+    
+    old open source Protocol toolkits (BEEP support for lua, ZeroConf
+    for ruby), lua bindings to C/C++ libraries, contributor to luasocket
+    and GNU mailutils, QNX virtual filesystems. (sam-github.github.com)
+    
+    Brazilian Jiu-jitsu. Blue belt, just a beginner.
+    
+    Judo. Black belt (1st degree), and instructor of both children and
+    adults.
+    
+    Rock Climbing. Climbed across North America, from Canada to Mexico.
+    
