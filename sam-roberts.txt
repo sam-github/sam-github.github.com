@@ -13,12 +13,14 @@ Career:
     Software developer with 20+ years of experience in a variety of
     industries, languages, and platforms. Consistently develop
     innovative tools and technologies that are adopted as core elements
-    of my companies' software development and business practices.
+    of my companies' software development and business practices. Worked
+    remotely since 2013.
     
 
 Highlights:
 
-    Multi-language: C, C++, Javascript (server side), Lua, Python, Ruby.
+    Multi-language: C, C++, Javascript (server side), Lua, Python, Ruby,
+    some Go.
   
     Systems level APIs: event-driven and non-blocking I/O, sockets and
     low-level network, Linux/UNIX.
@@ -26,8 +28,8 @@ Highlights:
     Cryptography and Security: implement cryptographic protocols and
     formats, test security of network protocols.
   
-    Open-source: Node.js TSC member, conference speaker, author and
-    contribute to many open-source projects.
+    Open-source: Node.js TSC member, conference speaker, authored or
+    contributed to many open-source projects.
   
 
 History:
@@ -40,8 +42,10 @@ History:
             Contribute to Node.js project, primarily in crypto/security, LTS release lines and IBM platform support.
           
     Achievements:
-    * TLS1.3 support for Node.js.
-    * Node.js security releases, such as Aug, 2019.
+    * Added TLS1.3 support to Node.js
+      (github.com/nodejs/node/pull/26209).
+    * Coordinate Node.js security releases
+      (nodejs.org/en/blog/vulnerability/).
     * Member of Node.js Technical Steering Committee (TSC).
     
     
@@ -63,16 +67,14 @@ History:
     
     
     Senior Software Developer
-    IBM Canada, APIConnect (developer.ibm.com/apiconnect
+    IBM Canada, APIConnect (developer.ibm.com/apiconnect)
     November 2015-September 2016
     
     
-            Post-acquisition of Strongloop, integrate Node.js runtime technology into IBM's APIConnect management stack.
+            Lead time of 3 IBM developers to integrate Strongloop Node.js runtime technology into IBM's APIConnect
+            using github.com/strongloop/strong-supervisor.
           
     Achievements:
-    * Led team of 3 IBM developers to add Node.js runtime management to
-      a WAS Liberty cluster, using
-      github.com/strongloop/strong-supervisor.
     * Node.js API Pitfalls: Can You Spot Them?, Node.js Interactive,
       Portland WA, Dec 2015, www.youtube.com/watch?v=jJaIwea8r2A.
     
@@ -82,14 +84,11 @@ History:
     April 2013-October 2015
     
     
-            Lead StrongOps team,
-            responsible for runtime and deployment management for Node.js applications. Participate in development of
-            management and monitoring solutions for Node.js (strong-pm.io).
+            Lead StrongOps team.
           
     Achievements:
-    * Application management with github.com/strongloop/strong-pm,
-      cluster management with github.com/strongloop/strong-supervisor,
-      and runtime monitoring with github.com/strongloop/strong-agent.
+    * Develop deployment, management, and monitoring for Node.js
+      applications (strong-pm.io).
     * Maintain and publish Strongloop modules and CLI
       (github.com/strongloop/strongloop).
     
@@ -99,8 +98,7 @@ History:
     May 2007-March 2013
     
     
-    	Lead a team of eight developers on a Linux-based appliance for
-    	automating network security testing of industrial equipment.
+    	Lead a team of 8 developers developing a network security testing appliance.
           
     Achievements:
     * Implement Scrum, and ship product within first year of
@@ -109,8 +107,8 @@ History:
       Lua.
     * Develop tests and Wireshark dissectors for many IPv4 and
       industrial protocols.
-    * Write a protocol dissector and rule engine for Linux and VxWorks,
-      as a component of an Intrusion Detection System.
+    * Write a Lua-based protocol dissector and rule engine for a
+      Linux/VxWorks IDS.
     
     
     Senior Software Architect
@@ -123,11 +121,9 @@ History:
     Achievements:
     * Implement grid communication protocols in Ruby, so Grid QA could
       be scripted.
-    * Expose grid capabilities through an RPC-like HTTP/XML API, and
-      rewrite the HTTP server for standards conformance and security.
-    * Write Lua bindings so grid components could be implemented in a
-      dynamically loadable scripting language, write components with the
-      bindings.
+    * Implement a HTTP/XML API for the grid, and rewrite the HTTP server
+      for standards conformance and security.
+    * Implement support for grid components to be written in Lua.
     
     
     Senior Software Developer
@@ -139,13 +135,10 @@ History:
             performance and low memory usage.
           
     Achievements:
-    * Propose architecture for integrating 3rd party cryptographic
-      support into Certicom's Crypto and protocol toolkits. Proposal
-      adopted as the Crypto-C API and integrated into all products
-      (IPSEC, TLS, PKI).
+    * Integrate support for 3rd party crypto libs into Crypto-C API, and
+      standardize across all SDKs (IPSEC, TLS, PKI).
     * Design Certicom's PKI-C toolkit. Implement PKI-C support for:
-      BER/DER; PKCS#8; X.509 certificates; CMS SignedData; PKCS#12/PFX;
-      various RSA, DH/DSA, and ECC key formats.
+      BER/DER; keys, certificates, CMS, and PFX.
     
     
     Software Developer
@@ -157,9 +150,8 @@ History:
               LISP-based scripting language).
               
     Achievements:
-    * Implement QNX's message passing API for Linux as a kernel module,
-      allowing Cogent's tool chain to be used on Linux
-      (opcdatahub.com/Docs/booksr.html).
+    * Implement QNX's message passing API as a Linux kernel module and
+      port Cogent's tools to Linux (opcdatahub.com/Docs/booksr.html).
     
     
     Development Lead
@@ -167,11 +159,10 @@ History:
     1995-Oct 1998
     
     
-            Manage the maintenance and development of ACE, a component-based,
-            runtime configurable, asynchronous event-based kernel implemented in
-            C++ and used for remotely operated vehicles. Ported ACE kernel to QNX
-            and sucessfully advocated that ISE transistion from OS-less embeddded
-            68K to QNX on x86.
+            Maintain and develop ACE, a component-based and
+             asynchronous event-based kernel implemented in
+            C++ and used to control remotely operated vehicles. Ported ACE kernel to QNX,
+            and transitioned ISE to using an OS.
             
 
 Education:
