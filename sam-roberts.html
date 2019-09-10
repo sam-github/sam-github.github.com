@@ -1,148 +1,205 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/strict.dtd">
-<html><head><META http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Sam Roberts - Resume</title><style>
-
-/*
- * compact.css -- Stylesheet suitable for printing an xmlresume to dead
- * trees without using too many of them (Arial font, white background)
- *
- * Contributed 2002 by Mark Miller (joup at bigfoot dot com)
- * http://xmlresume.sourceforge.net
- */
-
-// This dummy style must be here because the xml tags above cause some 
-// browsers (Konqueror, Mozilla) to ignore the first style 
-.dummy { background-color: white }
-
-body, table { 
-    margin-top: 1cm; 
-    margin-bottom: 1cm;
-    font-size: 8pt;
-    background-color: white;
-    font-family: Arial, Verdana, sans-serif;
-}
-
-.resume { 
-    padding-left: 1.5cm;
-    padding-right: 1.5cm;
-}
-h2 {
-    margin-left: -.8cm;
-    font-family: sans-serif;
-    color: black;
-    border-bottom: solid 1pt black;
-    font-size: 115%;
-}
-p {
-    margin-bottom: 0.05cm;
-    margin-top: 0.15cm;
-}
-em { font-weight: bold; }
-ul { margin-top: 0.1cm; }
-
-.projects p { font-style: italic }
-ul.degrees { padding-left: 0.2cm; }
-.subjectsHeading { font-style: italic }
-.awardTitle { font-weight: bold }
-.bookTitle { font-style: italic }
-.citation { font-style: italic }
-.copyright { font-size: 75% }
-li.degree { margin-bottom: 0.2cm; }
-.degreeTitle { font-weight: bold }
-.employer { font-style: italic }
-.headerBlock { text-align: left }
-.jobTitle { font-weight: bold }
-.lastModified { font-size: 75% }
-.nameHeading { font-family: sans-serif; font-size: 125%; }
-div.referee { margin-bottom: 0.5cm; }
-table.referees { width: 60%; margin-top: 0cm; margin-bottom: 0cm;}
-.refereeName { font-weight: bold }
-.skillsetTitle { font-weight: bold }
-.urlA { font-family:sans-serif; color:red; }
-
-</style></head><body><div class="resume"><div class="header"><h1 class="nameHeading">Sam Roberts</h1><p class="address">103 - 228 18th Ave East<br>Vancouver, BC V5V 1E6<br>Canada</p><p>Phone: 236-330-4820<br>Email: <a href="mailto:vieuxtech@gmail.com">vieuxtech@gmail.com</a><br>URL: <a href="https://sam-github.github.io">https://sam-github.github.io</a><br></p></div><h2 class="heading"><span class="headingText">Career</span></h2><p class="para">
-      Software developer with 20+ years of experience in a
-      variety of industries, languages, and platforms.
-      Consistently develop innovative tools and technologies that are
-      adopted as core elements of my companies' software
-      development and business practices. Worked remotely since 2013.
-      </p><h2 class="heading"><span class="headingText">Highlights</span></h2><p><span class="skillSetTitle">Multi-language: </span><span class="skills">C, C++, Javascript (server side), Lua, Python, Ruby, some Go.</span></p><p><span class="skillSetTitle">Systems level APIs: </span><span class="skills">event-driven and non-blocking I/O, sockets and low-level network, Linux/UNIX.</span></p><p><span class="skillSetTitle">Cryptography and Security: </span><span class="skills">implement cryptographic protocols and formats, test security of network protocols.</span></p><p><span class="skillSetTitle">Open-source: </span><span class="skills">Node.js TSC member, conference speaker, authored or contributed to many open-source projects.</span></p><h2 class="heading"><span class="headingText">History</span></h2><p class="job"><span class="jobTitle">Senior Software Developer</span><br><span class="employer">IBM Canada, Runtimes (<a class="linkA" href="https://developer.ibm.com/node/sdk/">developer.ibm.com/node/sdk/</a>)</span><br>October 2018-present</p><div class="jobDescription">
-        Contribute to Node.js project, primarily in crypto/security, LTS release lines and IBM platform support.
-      </div><div class="achievements"><p>Achievements:</p><ul><li class="achievement">Added TLS1.3 support to Node.js (<a class="linkA" href="https://github.com/nodejs/node/pull/26209">github.com/nodejs/node/pull/26209</a>).</li><li class="achievement">Coordinate Node.js security releases (<a class="linkA" href="https://nodejs.org/en/blog/vulnerability/">nodejs.org/en/blog/vulnerability/</a>).</li><li class="achievement">Member of Node.js Technical Steering Committee (<a class="linkA" href="https://github.com/nodejs/node#tsc-technical-steering-committee">TSC</a>).</li></ul></div><p class="job"><span class="jobTitle">Senior Software Developer</span><br><span class="employer">IBM Canada, Runtimes (<a class="linkA" href="https://github.com/RuntimeTools">github.com/RuntimeTools</a>)</span><br>October 2016-September 2017</p><div class="jobDescription">
-        Contribute to Node.js project and IBM projects integrating with Node.js.
-      </div><div class="achievements"><p>Achievements:</p><ul><li class="achievement">Integrating
-          <a class="linkA" href="https://github.com/strongloop/strong-pm">github.com/strongloop/strong-pm</a>
-          with IBM's
-          <a class="linkA" href="https://github.com/RuntimeTools/appmetrics">github.com/RuntimeTools/appmetrics</a>.</li><li class="achievement">Back Pressure, or, Don't Accept Work Before You're Ready, Node.js Interactive, Oct 2017, <a class="linkA" href="https://www.youtube.com/watch?v=Bz0EkaH4S7Y">www.youtube.com/watch?v=Bz0EkaH4S7Y</a> (also, Nodeconf.eu, Nov 2017).</li><li class="achievement">Node's Event Loop from the Inside Out, Node.js Interactive, Austin TX, Dec 2016, <a class="linkA" href="https://www.youtube.com/watch?v=P9csgxBgaZ8">www.youtube.com/watch?v=P9csgxBgaZ</a>.</li></ul></div><p class="job"><span class="jobTitle">Senior Software Developer</span><br><span class="employer">IBM Canada, APIConnect (<a class="linkA" href="https://developer.ibm.com/apiconnect/">developer.ibm.com/apiconnect</a>)</span><br>November 2015-September 2016</p><div class="jobDescription">
-        Lead time of 3 IBM developers to integrate Strongloop Node.js runtime technology into IBM's APIConnect
-        using <a class="linkA" href="https://github.com/strongloop/strong-supervisor">github.com/strongloop/strong-supervisor</a>.
-      </div><div class="achievements"><p>Achievements:</p><ul><li class="achievement">Node.js API Pitfalls: Can You Spot Them?, Node.js Interactive, Portland WA, Dec 2015, <a class="linkA" href="https://www.youtube.com/watch?v=jJaIwea8r2A">www.youtube.com/watch?v=jJaIwea8r2A</a>.</li></ul></div><p class="job"><span class="jobTitle">StrongOps Team Lead</span><br><span class="employer">Strongloop (<a class="linkA" href="http://strongloop.com">strongloop.com</a>)</span><br>April 2013-October 2015</p><div class="jobDescription">
-        Lead StrongOps team.
-      </div><div class="achievements"><p>Achievements:</p><ul><li class="achievement">Develop deployment, management, and monitoring for Node.js applications
-        (<a class="linkA" href="http://strong-pm.io/">strong-pm.io</a>).</li><li class="achievement">Maintain and publish Strongloop modules and CLI (<a class="linkA" href="https://github.com/strongloop/strongloop">github.com/strongloop/strongloop</a>).</li></ul></div><p class="job"><span class="jobTitle">Senior Architect and Development Lead</span><br><span class="employer">Wurldtech (<a class="linkA" href="http://wurldtech.com">wurldtech.com</a>)</span><br>May 2007-March 2013</p><div class="jobDescription">
-	Lead a team of 8 developers developing a network security testing appliance.
-      </div><div class="achievements"><p>Achievements:</p><ul><li class="achievement">
-	  Implement Scrum, and ship product within first year of development.
-	</li><li class="achievement">
-	  Rewrite the network protocol implementation and test framework in Lua.
-	</li><li class="achievement">
-	  Develop tests and Wireshark dissectors for many IPv4 and industrial
-          protocols.
-	</li><li class="achievement">Write a Lua-based protocol dissector and rule engine for
-          a Linux/VxWorks IDS.
-        </li></ul></div><p class="job"><span class="jobTitle">Senior Software Architect</span><br><span class="employer">Bycast (<a class="linkA" href="http://bycast.com">bycast.com</a>)</span><br>Nov 2005-June 2007</p><div class="jobDescription">
-	Work on storage grid, a distributed network of redundant, fault-tolerant Linux servers.
-      </div><div class="achievements"><p>Achievements:</p><ul><li class="achievement">
-          Implement grid communication protocols in Ruby, so Grid QA
-          could be scripted.
-        </li><li class="achievement">
-          Implement a HTTP/XML API for the grid, and
-          rewrite the HTTP server for standards conformance and security.
-        </li><li class="achievement">
-          Implement support for grid components to be written in Lua.
-        </li></ul></div><p class="job"><span class="jobTitle">Senior Software Developer</span><br><span class="employer">Certicom Corp. (<a class="linkA" href="http://certicom.com">certicom.com</a>)</span><br>Oct 2000-Oct 2005</p><div class="jobDescription">
-        Develop C language cryptographic toolkits optimized for high
-        performance and low memory usage.
-      </div><div class="achievements"><p>Achievements:</p><ul><li class="achievement">
-          Integrate support for 3rd party crypto libs into Crypto-C API, and
-          standardize across all SDKs (IPSEC, TLS, PKI).
-        </li><li class="achievement">
-          Design Certicom's PKI-C toolkit.
-          Implement PKI-C support for: BER/DER; keys, certificates, CMS, and PFX.
-        </li></ul></div><p class="job"><span class="jobTitle">Software Developer</span><br><span class="employer">Cogent Real-Time Systems (<a class="linkA" href="http://cogent.ca">cogent.ca</a>)</span><br>Oct 1998-Oct 2000</p><div class="jobDescription">
-          Custom QNX development for clients in C and Gamma (Cogent's
-          LISP-based scripting language).
-          </div><div class="achievements"><p>Achievements:</p><ul><li class="achievement">
-          Implement QNX's message passing API as a Linux kernel module and port
-          Cogent's tools to Linux
-          (<a class="linkA" href="https://www.opcdatahub.com/Docs/booksr.html">opcdatahub.com/Docs/booksr.html</a>).
-	</li></ul></div><p class="job"><span class="jobTitle">Development Lead</span><br><span class="employer">International Submarine Engineering (<a class="linkA" href="http://ise.bc.ca">ise.bc.ca</a>)</span><br>1995-Oct 1998</p><div class="jobDescription">
-        Maintain and develop ACE, a component-based and
-         asynchronous event-based kernel implemented in
-        C++ and used to control remotely operated vehicles. Ported ACE kernel to QNX,
-        and transitioned ISE to using an OS.
-        </div><h2 class="heading"><span class="headingText">Education</span></h2><ul class="degrees"><li class="degree"><span class="degreeTitle">B.A.Sc. in Engineering-Physics, Computer Science Option</span>, 1996<br><span class="institution">University of British Columbia</span></li></ul><h2 class="heading"><span class="headingText">Projects</span></h2><p class="para"><cite class="citation">Node.js packages:</cite>
-      modern-syslog, ~9K downloads/week (<a class="linkA" href="https://www.npmjs.com/package/modern-syslog">npmjs.com/package/modern-syslog</a>);
-      debuglog, ~1.2M downloads/week (weirdly) (<a class="linkA" href="https://www.npmjs.com/package/debuglog">npmjs.com/package/debuglog</a>);
-      strong-supervisor, ~1.7K downloads/week (<a class="linkA" href="https://www.npmjs.com/package/debuglog">npmjs.com/package/strong-supervisor</a>);
-      and authored or maintained many more (<a class="linkA" href="https://www.npmjs.com/~octet">npmjs.com/~octet</a>).
-    </p><p class="para"><cite class="citation">libnet</cite>
-      Adopted this widely used packet crafting and injection library, fixed the
-      known bugs, and re-released. It has been accepted downstream by Debian
-      and Fedora. I am trying to pass to new maintainers.
-      (<a class="linkA" href="https://github.com/libnet/libnet">github.com/libnet/libnet</a>)
-    </p><p class="para"><cite class="citation">luasocket</cite>.
-      Reintegrated multiple CVS and Mercurial forks into a single github repo,
-      brought collaborators together, and then passed project back to original
-      author
-      (<a class="linkA" href="https://github.com/diegonehab/luasocket/graphs/contributors">github.com/diegonehab/luasocket/graphs/contributors</a>).
-    </p><p class="para"><cite class="citation">Lua bindings:</cite><a class="linkA" href="https://github.com/sam-github/pcap-lua">github.com/sam-github/pcap-lua</a>;
-      <a class="linkA" href="https://github.com/sam-github/netfilter-lua">github.com/sam-github/netfilter-lua</a>;
-      <a class="linkA" href="https://github.com/sam-github/termios-lua">github.com/sam-github/termios-lua</a>;
-      <a class="linkA" href="https://github.com/sam-github/bcrc-lua">github.com/sam-github/bcrc-lua</a>.
-    </p><p class="para"><cite class="citation">vPim</cite>.
-      Ruby support for vCard and iCalendar formats
-      (<a class="linkA" href="https://github.com/sam-github/vpim">github.com/sam-github/vpim</a>)
-    </p><p class="para"><cite class="citation">GNU mailutils</cite>.
-      Contributed to email address decoding, file locking, SMTP, etc.
-      (<a class="linkA" href="http://git.savannah.gnu.org/cgit/mailutils.git/log/?qt=author&q=Sam+Roberts">savannah.gnu.org/projects/mailutils/</a>).
-    </p></div></body></html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>sam-roberts</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <style type="text/css">
+  /*
+   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+   *
+   * CSS for making a resume with pandoc. Inspired by moderncv.
+   *
+   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+   */
+  
+  /* Whole document */
+  body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      max-width: 800px;
+      margin: auto;
+      background: #FFFFFF;
+      padding: 10px 10px 10px 10px;
+  }
+  
+  /* Title of the resume */
+  h1 {
+      font-size: 55px;
+      color: #757575;
+      text-align:center;
+      margin-bottom:15px;
+  }
+  h1:hover {
+      background-color: #757575;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Titles of categories */
+  h2 {
+      /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+      color: #397249;
+  }
+  /* There is a bar just before each category */
+  h2:before {
+      content: "";
+      display: inline-block;
+      margin-right:1%;
+      width: 16%;
+      height: 10px;
+      /* This is called "rulecolor" in the ConTeXt stylesheet. */
+      background-color: #9CB770;
+  }
+  h2:hover {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Definitions */
+  dt {
+      float: left;
+      clear: left;
+      width: 17%;
+      /*font-weight: bold;*/
+  }
+  dd {
+      margin-left: 17%;
+  }
+  p {
+      margin-top:0;
+      margin-bottom:7px;
+  }
+  
+  /* Blockquotes */
+  blockquote {
+      text-align: center
+  }
+  
+  /* Links */
+  a {
+      text-decoration: none;
+      color: #397249;
+  }
+  a:hover, a:active {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Horizontal separators */
+  hr {
+      color: #A6A6A6;
+  }
+  
+  table {
+      width: 100%;
+  }
+  </style>
+</head>
+<body>
+<h1 id="sam-roberts">Sam Roberts</h1>
+<blockquote>
+<p><a href="mailto:vieuxtech@gmail.com">vieuxtech@gmail.com</a> • (+1) 236-330-4820 • <a href="https://sam-github.github.io" target="_blank">@sam-github</a> • Vancouver, BC, Canada</p>
+</blockquote>
+<blockquote>
+<p>Software developer with 20+ years of experience in a variety of industries, languages, and platforms.</p>
+</blockquote>
+<hr />
+<p><em>Multi-language</em>: C; C++; JavaScript (server side); Lua; Python; Ruby; some Go.</p>
+<p><em>Systems programming</em>: event-driven and non-blocking I/O; sockets and low-level networking; Linux.</p>
+<p><em>Networking and security</em>: implement and test both networking and cryptographic protocols and formats.</p>
+<p><em>Open source</em>: Node.js TSC member; conference speaker; author or contributor to many open-source projects.</p>
+<h2 id="experience">Experience</h2>
+<p><strong>2018/10-now: Senior Software Developer, <a href="https://developer.ibm.com/node/sdk" target="_blank">IBM Canada (Runtimes)</a> (remote)</strong></p>
+<p>Contribute to Node.js project in C++ and JavaScript, primarily to crypto, security, LTS, and IBM platform support.</p>
+<ul>
+<li><a href="https://github.com/nodejs/node/graphs/contributors" target="_blank">Contributor</a> to Node.js since 2013.</li>
+<li>Member of Node.js Technical Steering Committee (<a href="https://github.com/nodejs/node#tsc-technical-steering-committee" target="_blank">TSC</a>).</li>
+<li>Add TLS1.3 support to Node.js (<a href="https://github.com/nodejs/node/pull/26209" target="_blank">nodejs/node#26209</a> and previous).</li>
+<li>Coordinate Node.js security releases (<a href="https://nodejs.org/en/blog/vulnerability/" target="_blank">nodejs.org/en/blog/vulnerability/</a>).</li>
+</ul>
+<p><strong>2016/10-2017/09: Senior Software Developer, <a href="https://github.com/RuntimeTools" target="_blank">IBM Canada (Runtimes)</a> (remote)</strong></p>
+<p>Contribute to Node.js project and IBM’s Node.js APM (<a href="https://github.com/RuntimeTools/appmetrics" target="_blank">appmetrics</a>).</p>
+<ul>
+<li>Integrate Strongloop capabilities into appmetrics, replace <a href="https://github.com/strongloop/strong-agent" target="_blank">strong-agent</a> with appmetrics in <a href="https://strong-pm.io" target="_blank">strong-pm.io</a>.</li>
+<li>Help setup Node.js’ <a href="https://github.com/nodejs/security-wg" target="_blank">Security Working Group</a>.</li>
+<li><a href="www.youtube.com/watch?v=Bz0EkaH4S7Y">Back Pressure, or, Don’t Accept Work Before You’re Ready</a>, Node.js Interactive, Oct 2017/Nodeconf.eu, Nov 2017.</li>
+<li><a href="www.youtube.com/watch?v=P9csgxBgaZ">Node’s Event Loop from the Inside Out</a>, Node.js Interactive, Austin TX, Dec 2016</li>
+</ul>
+<p><strong>2015/11-2016/09: Senior Software Developer, <a href="https://developer.ibm.com/apiconnect" target="_blank">IBM Canada (APIConnect)</a> (remote)</strong></p>
+<p>Lead team of 3 IBM developers to integrate Strongloop runtime technology into IBM’s APIConnect using <a href="https://github.com/strongloop/strong-supervisor" target="_blank">strong-supervisor</a>.</p>
+<ul>
+<li><a href="www.youtube.com/watch?v=jJaIwea8r2A">Node.js API Pitfalls: Can You Spot Them?</a>, Node.js Interactive, Portland WA, Dec 2015</li>
+</ul>
+<p><strong>2013/04-2015/10: StrongOps Team Lead, <a href="http://strongloop.com" target="_blank">Strongloop</a> (remote)</strong></p>
+<p>Lead team of 4 responsible for deployment, management, and monitoring for Node.js applications (<a href="http://strong-pm.io/" target="_blank">strong-pm.io</a>) until Strongloop acquisition by IBM.</p>
+<ul>
+<li>Participate developing the <a href="https://github.com/strongloop/strong-agent" target="_blank">strong-agent</a> APM and metrics collector in JavaScript and C++.</li>
+<li>Develop process and cluster management for single machines (strong-pm.io), and distributed app orchestration (unreleased).</li>
+<li>Contribute to Node.js core, primarily to child_process, cluster, and documentation.</li>
+</ul>
+<p><strong>2007/05-2013/03: Senior Architect and Development Lead, <a href="http://wurldtech.com" target="_blank">Wurldtech</a> (Vancouver, BC)</strong></p>
+<p>Lead a team of 8 developers developing a network protocol test appliance using Python/Twisted, Lua, and C on Linux.</p>
+<ul>
+<li>Implement Scrum, and ship product within first year of development.</li>
+<li>Rewrite the network protocol and test framework from Java to Lua.</li>
+<li>Implement tests for many network and industrial protocols in C and Lua.</li>
+<li>Write a protocol interceptor in C, along with a Lua rule engine for a Linux/VxWorks intrusion prevention system (IPS).</li>
+</ul>
+<p><strong>2005/11-2007/06: Senior Software Architect, <a href="http://bycast.com" target="_blank">Bycast</a> (Vancouver, BC)</strong></p>
+<p>Implement microservice components of StorageGrid, a large image distributed data store, in C, C++, and Lua on Linux.</p>
+<ul>
+<li>Implement grid communication protocols in Ruby, for QA team to automate tests.</li>
+<li>Implement an XML RPC API for the Grid in C, and rewrite the HTTP server for standards conformance and security.</li>
+<li>Embed Lua in the Grid, and use it to write Grid components.</li>
+</ul>
+<p><strong>2000/10-2005/10: Senior Software Developer, <a href="http://certicom.com" target="_blank">Certicom</a> (Mississauga, ON)</strong></p>
+<p>Develop C language cryptographic toolkits on servers and mobile devices.</p>
+<ul>
+<li>Extend Crypto-C API to support 3rd party and hardware-based crypto.</li>
+<li>Design PKI-C toolkit, and implement BER/DER, key formats, X.509 certificates, CMS, and PFX.</li>
+</ul>
+<p><strong>1998/10-2000/10: Software Developer, <a href="http://cogent.ca" target="_blank">Cogent Real-Time Systems</a> (Mississauga, ON)</strong></p>
+<p>Develop industrial distributed systems in C and Cogent’s LISP-dialect, using a microservice architecture (service discovery, hierarchical key-value store, message queueing, time-series data, etc.).</p>
+<ul>
+<li>Port microservice SDK product to Linux, after writing Linux kernel emulation of QNX4 messaging.</li>
+</ul>
+<p><strong>1995-1998/10: Development Lead, <a href="http://ise.bc.ca" target="_blank">International Submarine Engineering</a> (Port Coquitlam, BC)</strong></p>
+<p>Responsible for ACE, an asynchronous event-based C++ control kernel and configuration language for robotics that originally targeted embedded systems. Port to QNX4, a POSIX O/S, and support its use in all new projects.</p>
+<h2 id="education">Education</h2>
+<p>B.A.Sc., Engineering-Physics, Computer Science Option; University of British Columbia (1996)</p>
+<h2 id="open-source">Open source</h2>
+<dl>
+<dt>Node.js</dt>
+<dd>• <a href="https://github.com/nodejs/node/commits?author=sam-github" target="_blank">commits</a> to Node.js core<br />
+• <a href="https://www.npmjs.com/~octet" target="_blank">authored or maintained</a> many Strongloop packages, such as <a href="https://www.npmjs.com/package/modern-syslog" target="_blank">modern-syslog</a> (~9K downloads/week), <a href="https://www.npmjs.com/package/debuglog" target="_blank">debuglog</a> (~1.2M downloads/week, weirdly!), <a href="https://www.npmjs.com/package/debuglog" target="_blank">strong-supervisor</a> (~1.7K downloads/week),
+</dd>
+<dt>Lua</dt>
+<dd>• <a href="https://github.com/diegonehab/luasocket" target="_blank">luasocket</a>, <a href="https://github.com/diegonehab/luasocket/commits?author=sam-github" target="_blank">forked</a>, integrated multiple CVS and Mercurial forks into github, brought collaborators together, and passed project back to original author<br />
+• C/Lua bindings: <a href="https://github.com/sam-github/pcap-lua" target="_blank">pcap-lua</a>, <a href="https://github.com/sam-github/netfilter-lua" target="_blank">netfilter-lua</a>, <a href="https://github.com/sam-github/termios-lua" target="_blank">termios-lua</a>, <a href="https://github.com/sam-github/bcrc-lua" target="_blank">bcrc-lua</a>
+</dd>
+<dt>Ruby</dt>
+<dd>• vCard and iCalendar support (<a href="https://github.com/sam-github/vpim" target="_blank">vpim</a>)<br />
+• ZeroConf DNS service discovery (<a href="https://github.com/sam-github/net-mdns" target="_blank">net-mdns</a>)
+</dd>
+<dt>C</dt>
+<dd>• <a href="https://github.com/libnet/libnet" target="_blank">libnet</a>, adopted a widely used packet crafting and injection library<br />
+• <a href="https://mailutils.org" target="_blank">GNU mailutils</a>, <a href="http://git.savannah.gnu.org/cgit/mailutils.git/log/?qt=author&amp;q=Sam+Roberts" target="_blank">commits</a> to email address decoding, file locking, SMTP
+</dd>
+<dt>Go</dt>
+<dd>• <a href="https://github.com/sam-github/git-walk" target="_blank">git-walk</a>, recursive, parallel command execution in Ruby, Node.js, and Go<br />
+• <a href="https://github.com/sam-github/whereami" target="_blank">whereami</a>, example app to explore Go programming and channels
+</dd>
+</dl>
+</body>
+</html>
